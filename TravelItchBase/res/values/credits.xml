@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation" >
+
+  <string name="credits">Application icons have been created using the Android Asset Studio</string>
+  
+  <string name="photo_credits">This product uses photography content provided under the Creative Commons Attribution licence, but in no way endorsed, by authors listed below. The full
+      text of the licence can be obtained by following the URL: \nhttps://creativecommons.org/licenses/by/3.0/legalcode \n \n
+      
+
+	a2gemma \n
+	Aah-Yeah \n
+	Abass Chirdon \n
+	abdallahh \n
+	abi.bhattachan \n
+	Achilli Family | Journeys \n
+	acizane nacizane \n
+	Adalberto.H.Vega \n
+	Adam Kahtava \n
+	Adarsh Thakuri \n
+	Adhi Rachdian \n
+	Adnan Asim \n
+	Afghanistan Matters \n
+	Afrika Force \n
+	Ahron de Leeuw \n
+	Akos Kokai \n
+	Alan Kotok \n
+	Alan \n
+	Alan Samuel \n
+	Alan Turkus \n
+	Alberto .... \n
+	albi \n
+	Alec @ Taiwan \n
+	Alessandro Giangiulio \n
+	Alexander Baxevanis \n
+	Alexander Savin \n
+	Alex Healing \n
+	Alex SkroBot \n
+	Alfred Weidinger \n
+	Ali Arsh \n
+	Allen Sheffield \n
+	Allie_Caulfield \n
+	Alosh Bennett \n
+	Alp Enes Arslan \n
+	amaianos \n
+	Ambika \n
+	Amer Jazaerli \n
+	amira_a \n
+	anaareh_saaveh \n
+	Anderson Smith2010 \n
+	Andrea_44 \n
+	Andrea Schaffer \n
+	Andrea Schieber \n
+	Andre Deak \n
+	Andrew Crump \n
+	Andrew Hayward \n
+	Andrey \n
+	Andy Gleeson \n
+	Andy Hay \n
+	Andy R \n
+	Andy Rusch \n
+	An en Alain \n
+	Angelo Romano \n
+	anicapetkoska \n
+	Annie and Andrew \n
+	Annie Mole \n
+	Anthony Gherghetta \n
+	Antoine Moens de Hase \n
+	Antti T. Nissinen \n
+	Arian Zwegers \n
+	Armando Aguayo Rivera \n
+	Ashish Gautam \n
+	ashton \n
+	Astaras \n
+	Aysegul Tastaban \n
+	babeltravel \n
+	Barbara Ann Spengler \n
+	Barbora Nemcova \n
+	Barney Moss \n
+	Bart Van Der Meerssche \n
+	Basheer Olakara \n
+	B_cool \n
+	beanintropics \n
+	Ben Bowes \n
+	Benjamin Hollis \n
+	Benjamin Vander Steen \n
+	Ben Kucinski \n
+	Ben Sutherland \n
+	Ben Tavener \n
+	Ben Tubby \n
+	berduchwal \n
+	Berit Watkin \n
+	Bernt Rostad \n
+	Bert Kaufmann \n
+	Beverley Goodwin \n
+	Bev Sykes \n
+	Bijan Tehrani \n
+	Bilal Kamoon \n
+	Bill Benson \n
+	Bill Johnston \n
+	Bill Rand \n
+	bjaglin \n
+	björn hornemann \n
+	Black Zero \n
+	bm.iphone \n
+	bobistraveling \n
+	bob \n
+	borntosnore \n
+	Bots2008 \n
+	Breezy Baldwin \n
+	BrianBoardman \n
+	Brian Chow \n
+	Brian Eager \n
+	Brian Gratwicke \n
+	Brian \n
+	Brian Snelson \n
+	Brisa del Mar * Venezuela * \n
+	Broderick \n
+	Bruce Harlick \n
+	Bruce Tuten \n
+	Bruno Kussler Marques \n
+	Bryan Alexander \n
+	Bryan Pocius \n
+	Bryan Siders \n
+	Burgermac \n
+	butforthesky.com \n
+	Cali \n
+	canbolatm \n
+	CaptainOates \n
+	Carles Tomás Martí \n
+	Carl Montgomery \n
+	Carlos Ginard \n
+	carlosticas \n
+	Cass \n
+	Certo Xornal \n
+	cesar bojorquez \n
+	Cessna 206 \n
+	Chad Kainz \n
+	Chandrashekhar Basumatary \n
+	Charlie \n
+	Chelsea Marie Hicks \n
+	Chen Zhao \n
+	Chiara Marra \n
+	Chiara \n
+	Chi King \n
+	chinaoffseason \n
+	Chintana Wilamuna \n
+	Chris Eason \n
+	Chris Feser \n
+	Chris M Morris \n
+	Christiaan Triebert \n
+	Christian Córdova \n
+	Christian Haugen \n
+	Christian Trabold \n
+	Christian Van Der Henst S. \n
+	Christine und Hagen Graf \n
+	Christine Zenino \n
+	Christopher Dorobek \n
+	Christoph Löffler \n
+	Chuck Kramer \n
+	claumoho \n
+	Clemens v. Vogelsang \n
+	Cliff \n
+	closari \n
+	Coffee Circle \n
+	Comrogues \n
+	Costel Slincu \n
+	Craig Wyzik \n
+	Cristian Bortes \n
+	Cristian Quinzacara \n
+	Cristóbal Alvarado Minic \n
+	Crowbared \n
+	ctsnow \n
+	cuatrok77 \n
+	Cynthia Pyun \n
+	Cyril Bèle \n
+	Cyro Silva \n
+	Damien du Toit \n
+	Damien Firmenich \n
+	daniel Cremona \n
+	Daniel Echeverri \n
+	Daniel Jolivet \n
+	Danielle Pereira \n
+	Daniel Ramirez \n
+	Daniel Thornton \n
+	daniilr \n
+	Danny Byas \n
+	Darij &amp; Ana \n
+	darius_saulenas \n
+	Dave Lonsdale \n
+	dave massie \n
+	Dave Proffer \n
+	David Bacon \n
+	David Berkowitz \n
+	David Davidson \n
+	David Evans \n
+	david*gauntlett \n
+	David Hart \n
+	David Herrera \n
+	David Jones \n
+	David Lisbona \n
+	David Pursehouse \n
+	David Short \n
+	David Sim \n
+	David Spender \n
+	David Stanley \n
+	David Wan \n
+	David Weekley \n
+	Deborah Austin \n
+	Denali National Park and Preserve \n
+	Denis Simonet \n
+	Dennis Keller \n
+	Dennis Redfield \n
+	Department of Foreign Affairs and Trade \n
+	Derek Hatfield \n
+	Derek Keats \n
+	DIBP images \n
+	Dick Johnson \n
+	Di Jones \n
+	Dimitry B. \n
+	DiverDave \n
+	Dk58 - Renaud \n
+	DocAC \n
+	doublecnz \n
+	Douglas Perkins \n
+	Douglas Woods \n
+	Dr Tr \n
+	Dylan Walters \n
+	DymphieH \n
+	Ecuador 2009 \n
+	Ed Bierman \n
+	Edgars En. \n
+	edward stojakovic \n
+	eGuide Travel \n
+	Eirik Refsdal \n
+	Ekke \n
+	E.Kopyszew \n
+	Elescir \n
+	Elliott Brown \n
+	Emily Black \n
+	Emily Hildebrand \n
+	Emma \n
+	Emmanuel DYAN \n
+	Eneas De Troya \n
+	epSos .de \n
+	Erik Cleves Kristensen \n
+	Erwan Martin \n
+	Eryn Vorn \n
+	Esparta Palma \n
+	Esther Westerveld \n
+	eugenen \n
+	Eugene Regis \n
+	Eugene Zagidullin \n
+	Eulinky \n
+	eutrophication&amp;hypoxia \n
+	Evan Bench \n
+	Evaneos.com - Le voyage sur mesure en direct \n
+	eviljohnius \n
+	Evo Flash \n
+	Fabio Achilli \n
+	Fabrizio Morroia \n
+	Fairphotos \n
+	Farhan Chawla \n
+	Feans \n
+	flickrfavorites \n
+	flowcomm \n
+	Francisco Antunes \n
+	Francisco Anzola \n
+	Francisco Gonzalez \n
+	francois \n
+	François Terrier \n
+	Franco Pecchio \n
+	Frank Kovalchek \n
+	Frank Vassen \n
+	Fred Hsu \n
+	Fulvio Spada \n
+	funkz \n
+	fusion-of-horizons \n
+	fvanrenterghem \n
+	Gabriel \n
+	Gabriel Villena Fernández \n
+	Gaelen \n
+	Gail Frederick \n
+	Gary Bembridge \n
+	Gaston Ferreyra \n
+	Geoff Gallice \n
+	Geología Valdivia \n
+	George Groutas \n
+	Georg Scholz \n
+	Gerhard Giebener \n
+	Gerry \n
+	Gido van Duren \n
+	Gilad Rom \n
+	Giles Clark \n
+	Gisling \n
+	Giuseppe Milo \n
+	GlacierNPS \n
+	glenngould \n
+	gnozef \n
+	gnuckx \n
+	godo godaj \n
+	Gopal Vijayaraghavan \n
+	Göran Höglund (Kartläsarn) \n
+	Graeme Churchard \n
+	Grand Canyon National Park \n
+	Grand Parc - Bordeaux, France \n
+	Guido Appenzeller \n
+	Guilhem Vellut \n
+	Guillaume Baviere \n
+	Gustavo Jeronimo \n
+	Guttorm Flatabø \n
+	Hadi Zaher \n
+	Hajime NAKANO \n
+	Hamed Saber \n
+	Hans Põldoja \n
+	Hanumann \n
+	Harris Walker \n
+	Heather Cowper \n
+	Hector Sanchez \n
+	Heike Quosdorf \n
+	Helena Van Eykeren \n
+	hendry_670 \n
+	Henri Sivonen \n
+	Herry Lawford \n
+	hoge asdf \n
+	Honza Soukup \n
+	Hugo A. Quintero G. \n
+	Hühnerauge \n
+	Humboldt \n
+	Hunter Desportes \n
+	Ian Mackenzie \n
+	Ian @ ThePaperboy.com \n
+	Ian XYZ \n
+	Ilona Margalitadze \n
+	Ilya Katsnelson \n
+	imabel \n
+	Indrik myneur \n
+	ines saraiva \n
+	inkomega \n
+	Institute for the Study of the Ancient World \n
+	Irene \n
+	Ivan Mlinaric \n
+	Iwh50 \n
+	Jack Fiallos \n
+	Jacob Munk-Stander \n
+	Jacobs - Creative Bees \n
+	Jacques \n
+	Jaime Golombek \n
+	Jakob Montrasio \n
+	James Cridland \n
+	James Emery \n
+	Jan Fidler \n
+	Janice Waltzer \n
+	János Tamás \n
+	Ján Sokoly \n
+	Jason Ballard \n
+	Jason Hollinger \n
+	Jason Riedy \n
+	Jason Rogers \n
+	Javier Lastras \n
+	Jay Galvin \n
+	jbdodane \n
+	J c \n
+	Jean &amp; Nathalie \n
+	Jeanne Menj \n
+	Jean-Pierre Dalbéra \n
+	Jean Rebiffé \n
+	Jeff Attaway \n
+	Jeff Gunn \n
+	Jeff Hart \n
+	Jeff Kramer \n
+	Jeff Sargent \n
+	Jen Hunter \n
+	Jennifer Boyer \n
+	Jennifer Morrow \n
+	Jennifer \n
+	Jenny Scott \n
+	Jens-Olaf Walter \n
+	Jeremy Atkinson \n
+	Jeremy Keith \n
+	Jeremy T. Hetzel \n
+	Jerome Bon \n
+	jespahjoy \n
+	Jesse \n
+	Jesús Corrius \n
+	Jesus Solana \n
+	Jim Bahn \n
+	Jim Bowen \n
+	Jim G \n
+	Jim Gordon \n
+	Jim Linwood \n
+	Jim McIntosh \n
+	Jirka Matousek \n
+	jjmusgrove \n
+	Joao Vicente \n
+	Job de Graaf \n
+	Joe McKenna \n
+	John Haslam \n
+	John Lord \n
+	John Pavelka \n
+	Joi Ito \n
+	jojo nicdao \n
+	Jonas Bengtsson \n
+	Jonas Lamis \n
+	Jonas \n
+	Jonathan Lidbeck \n
+	Jonathan Mueller \n
+	Jonathan O\'Donnell \n
+	Jonathan Stonehouse \n
+	Jon Connell \n
+	Joni-Pekka Luomala \n
+	Jon Mountjoy \n
+	Jon Olav Eikenes \n
+	Jon Rawlinson \n
+	Jordan Klein \n
+	Jordi Marson \n
+	Jorge Láscar \n
+	Jorge Leon Cabello \n
+	Jørn Eriksson \n
+	Jose Antonio Cotallo López \n
+	Jose Hidalgo \n
+	Jose ILIDIO Spinola \n
+	Jose Luis Cernadas Iglesias \n
+	Joseph Hunkins \n
+	Josh and Erica Silverstein \n
+	Joyce cory \n
+	Joy \n
+	JP Bennett \n
+	J R \n
+	Juan Antonio Flores Segal \n
+	Juanedc.com \n
+	Juan Jiménez Martínez \n
+	Jukka \n
+	Juliana Rotich \n
+	Julian-G. Albert \n
+	JULIAN MASON \n
+	Julie Lyn \n
+	Jumilla \n
+	Jurgen \n
+	Justin Clements \n
+	Justin Jensen \n
+	Justin Otto \n
+	Justin Stahlman \n
+	kalashri \n
+	kansasphoto \n
+	karlnorling \n
+	Kate Hopkins \n
+	Katie Hunt \n
+	Katina Rogers \n
+	Kay Adams \n
+	Kazue Asano \n
+	Ken &amp; Nyetta \n
+	Ken Doerr \n
+	Ken Marshall \n
+	Ken Mayer \n
+	Kerem Titiz \n
+	KevGuy4101 \n
+	Kevin Gibbons \n
+	Kevin Jones \n
+	Kevin Poh \n
+	Kevin Walsh \n
+	khym54 \n
+	kittenpurrree \n
+	Klovovi \n
+	Konstantinos Dafalias \n
+	Koshy Koshy \n
+	Kristine Riskær \n
+	Kurt Dundy \n
+	Kyle Taylor \n
+	Larry Lamsa \n
+	LASZLO ILYES \n
+	Laura \n
+	Laurent de Walick \n
+	Lawrence Murray \n
+	Leandro Neumann Ciuffo \n
+	Leo Fung \n
+	Leonardo Shinagawa \n
+	Les Haines \n
+	Liga Eglite \n
+	Lisa Weichel \n
+	lix - \n
+	london road \n
+	Los viajes del Cangrejo \n
+	Luca Conti \n
+	Luis Sáenz H. \n
+	Luiz Fernando Reis \n
+	Lukasz \n
+	Luke Ma \n
+	LuxTonnerre \n
+	Lydia \n
+	Lyn Gateley \n
+	Ma1974 \n
+	Maarten \n
+	Madeleine Holland \n
+	Magnus Manske \n
+	Mahesh Kularatne \n
+	Makoto Miyagawa \n
+	Maks Karochkin \n
+	Malcolm Duchamp \n
+	Mandy \n
+	Manuel Martín Vicente \n
+	Mara 1 \n
+	Marc Auer \n
+	Marc Dalmulder \n
+	Marcel Ekkel \n
+	Marc Smith \n
+	marcusrg \n
+	Maria Ly \n
+	Mario Fajt \n
+	Marissa Strniste \n
+	mark byzewski \n
+	Mark Fahey \n
+	Mark Fleming \n
+	Mark Jordahl \n
+	Mark Seymour \n
+	Marlon Cureg \n
+	Martijn.Munneke \n
+	Martin L \n
+	Martin Talbot \n
+	Mary-Lynn \n
+	Mathias \n
+	Mathieu Lebreton \n
+	Matt Barber \n
+	Matthew Townsend \n
+	Matthias Mueller \n
+	Matt J Carbone \n
+	Matt Perich \n
+	Matt Stabile \n
+	Maureen \n
+	Mauricio Lima \n
+	Mauricio Ricaldi \n
+	Maurizio Costanzo \n
+	Max-Leonhard von Schaper \n
+	MCAD Library \n
+	McKay Savage \n
+	melortpanama \n
+	Meng Zhang \n
+	Mgiganteus \n
+	Michael Eisenriegler \n
+	Michael Goodine \n
+	Michael McKechnie \n
+	Michael Pollak \n
+	Michela Simoncini \n
+	Miguel Vieira \n
+	Miguel Virkkunen Carvalho \n
+	Mihai \n
+	Mike Baird \n
+	Mike Beauregard \n
+	Mike Cattell \n
+	Mikhail Koninin \n
+	Milan Boers \n
+	Milton Jung \n
+	Minoru Uchida \n
+	miquelon \n
+	miriam.mollerus \n
+	Mirko Tobias Schaefer \n
+	Mitchell Fitzsimmons \n
+	mitchpa1984 \n
+	Mohd Althani \n
+	Moisés Nazário \n
+	momo \n
+	Monan Qiu \n
+	moof \n
+	Morgan Davis \n
+	motiqua \n
+	Motohiro Sunouchi \n
+	Moyan Brenn \n
+	M.Peinado \n
+	mtsrs \n
+	Muhammad Imran Saeed \n
+	Mulligan Stu \n
+	My Past \n
+	Nam-ho Park \n
+	Nan Palmero \n
+	Natalie Maynor \n
+	neiljs \n
+	NeilsPhotography \n
+	nevil zaveri \n
+	ninara \n
+	Ninian Reid \n
+	NOAA Photo Library \n
+	Noel Reynolds \n
+	Nora Elizabeth Gebauer Silva \n
+	Nuuuuuuuuuuul \n
+	OER Africa \n
+	oknidius \n
+	Olga Berrios \n
+	orangeandmilk \n
+	Otávio Nogueira \n
+	Pablo García \n
+	Pablo \n
+	Party Lyn \n
+	Pascal \n
+	Pascal Walschots \n
+	patchtok \n
+	Pato Novoa \n
+	Patrick Furlong \n
+	Patrick Hawks \n
+	Paul Arps \n
+	Paul Asman and Jill Lenoble \n
+	Paul Kane \n
+	Paul Kehrer \n
+	Paul Mannix \n
+	Paul Toogood \n
+	Paul White \n
+	Paul Woods \n
+	pedroko_75 \n
+	Pedro Szekely \n
+	pete \n
+	Peter de Ruiter \n
+	Peter Dowley \n
+	Peter Dutton \n
+	Peter \n
+	Petr Magera \n
+	peuplier \n
+	Phalinn Ooi \n
+	Philippe AMIOT \n
+	Philippe Cuvelier \n
+	Phillip Capper \n
+	Phil Whitehouse \n
+	PhR61 \n
+	Pia Waugh \n
+	Pieter Schepens \n
+	pratiproy \n
+	prbuckley1 \n
+	Prefeitura de Olinda \n
+	Prince Roy \n
+	psyberartist \n
+	pululante \n
+	Radio Okapi \n
+	Ran Yaniv Hartstein \n
+	Razvan Orendovici \n
+	R Barraez D´Lucca \n
+	Rebecca Siegel \n
+	Red Junasun \n
+	reibai \n
+	Remus Pereni \n
+	Richard Barrett-Small \n
+	Richard Martin \n
+	Richard Moross \n
+	Rick Ligthelm \n
+	Rick McCharles \n
+	Rictor Norton &amp; David Allen \n
+	Rike Fotos \n
+	Rik O\'Hare \n
+	Rinaldo Wurglitsch \n
+	Robb1e \n
+	Robert Engberg \n
+	Robert Hensley \n
+	Robert Linsdell \n
+	Robert Montgomery \n
+	Robert \n
+	Roberto Strauss \n
+	Robert Young \n
+	Rob \n
+	Rob Taylor \n
+	Rodrigo Soldon \n
+	Roger Braunstein \n
+	rollej \n
+	Romain Cloff \n
+	Roman Soto \n
+	Ronald Tagra \n
+	Ronny Siegel \n
+	Rosanetur \n
+	Ross Elliott \n
+	Ross Huggett \n
+	Ruben Holthuijsen \n
+	Rudolf Getel \n
+	rugbyxm \n
+	Russ Bowling \n
+	Rustom Seegopaul \n
+	Ryan \n
+	Salim Shadid \n
+	Sal Taylor Kydd \n
+	Sankara Subramanian \n
+	SarahDepper \n
+	sarahemcc \n
+	Sarah Kelemen Garber \n
+	Schristia \n
+	Scott Edmunds \n
+	Scott Liddell \n
+	Scott Presly \n
+	Scott Soerries \n
+	Scott Wylie \n
+	Seba S \n
+	Sebastian Dooris \n
+	Sébastien Launay \n
+	Senorhorst Jahnsen \n
+	Serge Bystro \n
+	Sergey Glavatskikh \n
+	shakeel bahrawar khan \n
+	shankar s. \n
+	Sharkie \n
+	Shashi Bellamkonda \n
+	Shaun Metcalfe \n
+	Shayan Sanyal \n
+	Shayan Sanyal \n
+	Shinya Suzuki \n
+	shrikant rao \n
+	Shubert Ciencia \n
+	Silke Baron \n
+	Simone Graziano Panetto \n
+	sk12 \n
+	skifatenum \n
+	Smabs Sputzer \n
+	Smudge 9000 \n
+	SNappa2006 \n
+	So-called vita \n
+	Soham Banerjee \n
+	Solapeña \n
+	someone10x \n
+	Son of Groucho \n
+	S Pakhrin \n
+	spaztacular \n
+	Stan Dalone &amp; Miran Rijavec \n
+	Stefan Krasowski \n
+	Stefan Lins \n
+	Stein Ove Korneliussen \n
+	Stenly Lam \n
+	Stéphane Gallay \n
+	Stephane Mignon \n
+	Stephen Colebourne \n
+	Step \n
+	Steve Hicks \n
+	Steve Jurvetson \n
+	Steve \n
+	Steven Coutts \n
+	Steven Damron \n
+	Steven Straiton \n
+	Steve Slater \n
+	Stig Nygaard \n
+	Stuart Madden \n
+	Surreal Name Given \n
+	Susan Drury \n
+	synchroswimr \n
+	tacit requiem (joanneQEscober ) \n
+	Taco Witte \n
+	Tagosaku \n
+	Tamas \n
+	TANAKA Juuyoh (田中十洋) \n
+	Tanya.K. \n
+	Tara Sturm \n
+	Tatjana Todorovic \n
+	Tauno Tõhk / 陶诺 \n
+	Ted Brown \n
+	Tejvan Pettinger \n
+	Tero Laakso \n
+	The JH Photography \n
+	Theodore Scott \n
+	thinboyfatter \n
+	Thomas Breuer \n
+	Thomas CUELHO \n
+	Thomas Fischler \n
+	Thomas Münter \n
+	Thomas Quine \n
+	Tim Parkinson \n
+	Tim Walker \n
+	TKnoxB \n
+	Todd Jones \n
+	Tomi Lattu \n
+	tomislav medak \n
+	Tommy and Georgie \n
+	Tony Fischer \n
+	Tony Hisgett \n
+	Torpe \n
+	Travelbusy.com \n
+	TravelingOtter \n
+	Travis \n
+	Tristan Ferne \n
+	Tristan Schmurr \n
+	Trocaire \n
+	trung hieu \n
+	Tyler Bell \n
+	typexnick \n
+	umer malik \n
+	u_m_e_r \n
+	upyernoz \n
+	U.S. Fish and Wildlife Service Headquarters \n
+	Uxue HegoAmerikan \n
+	Vaiz Ha \n
+	veebruar \n
+	Veni \n
+	Verity Cridland \n
+	Vernon Swanepoel \n
+	Victoria Reay \n
+	Vlad Ivanov \n
+	Vlad Volkov \n
+	Vyacheslav Argenberg \n
+	walter callens \n
+	Wapster \n
+	Will Clayton \n
+	William Neuheisel \n
+	William Warby \n
+	willy \n
+	Willy Stephane Awaho \n
+	Wolfgang Staudt \n
+	Wonderlane \n
+	Xiquinho Silva \n
+	xlibber \n
+	Yann \n
+	yeowatzup \n
+	Yiftah Lieberman \n
+	Yoni Lerner \n
+	you know \n
+	Yuichiro Haga \n
+	Yun Huang Yong \n
+	Yuri Virovets \n
+	Zach Dischner \n
+	Αλέξανδρος \n</string>
+  
+</resources>
