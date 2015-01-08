@@ -9,10 +9,10 @@ import com.google.android.gms.maps.model.LatLng;
 
 public class Stamp implements Serializable {
 	public static final long serialVersionUID = 1;
-	
+
 	public static final int FEATURE_SIGHTS = 1;
 	public static final int FEATURE_OUTDOOR = 2;
-	
+
 	public static final int FEATURE_CITY = 4;
 	public static final int FEATURE_CAPITAL = 8;
 	public static final int FEATURE_WHS = 16;
@@ -23,9 +23,9 @@ public class Stamp implements Serializable {
 	public static final int F_C_WHS = FEATURE_SIGHTS | FEATURE_WHS;
 	public static final int F_N_WHS = FEATURE_OUTDOOR | FEATURE_WHS;
 	public static final int F_MNT = FEATURE_OUTDOOR | FEATURE_MOUNTAIN;
-	
+
 	private static final String mIconDir = "icons/";
-	
+
 	private int mId;
 	private int mName;
 	private int mDescription;
@@ -37,10 +37,10 @@ public class Stamp implements Serializable {
 	private int mRadiusMeters;
 	private int mWeight;
 	private boolean mVisited;
-	
+
 	public static Comparator<Stamp> getByLatComparator () {
 		return new Comparator<Stamp> () {
-			
+
 			@Override
 			public int compare(Stamp lhs, Stamp rhs) {
 				if (lhs.getLatitude() <= rhs.getLatitude())
@@ -50,10 +50,10 @@ public class Stamp implements Serializable {
 			}
 		};
 	}
-	
+
 	public static Comparator<Stamp> getByNameComparator (final Context context) {
 		return new Comparator<Stamp> () {
-			
+
 			@Override
 			public int compare(Stamp lhs, Stamp rhs) {
 				String lhsString = context.getString(lhs.getName());
@@ -63,7 +63,7 @@ public class Stamp implements Serializable {
 			}
 		};
 	}
-	
+
 	public Stamp (int id, int name, int description, int country, int continent, int features, double lat, double lon, int radius, int weight, String icon) {
 		mId = id;
 		mName = name;
@@ -81,11 +81,11 @@ public class Stamp implements Serializable {
 	public LatLng getCoordinates() {
 		return mCoordinates;
 	}
-	
+
 	public double getLatitude () {
 		return mCoordinates.latitude;
 	}
-	
+
 	public double getLongitude () {
 		return mCoordinates.longitude;
 	}

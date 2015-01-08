@@ -21,37 +21,37 @@ import android.util.Log;
 
 public class ImagePackDownloaderFragment extends Fragment {
 	private static final int BUFFER_SIZE = 2048;
-	
+
 	public interface TaskCallbacks {
-	    public void onImagePackDownloadProgressed(int percent);
-	    public void onImagePackDownloadCancelled();
-	    public void onImagePackDownloaded();
+		public void onImagePackDownloadProgressed(int percent);
+		public void onImagePackDownloadCancelled();
+		public void onImagePackDownloaded();
 	}
-	
+
 	private Context mContext = null;
 	private TaskCallbacks mCallbacks = null;
 	private Task mTask = null;
 	private boolean mRunning = false;
-	
+
 	@Override
 	public void onAttach (Activity activity) {
 		super.onAttach(activity);
 		mCallbacks = (TaskCallbacks) activity;
 		mContext = activity.getApplicationContext();
 	}
-	
+
 	@Override
 	public void onCreate (Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setRetainInstance(true);
 	}
-	
+
 	@Override
 	public void onDestroy () {
 		super.onDestroy();
 		cancel ();
 	}
-	
+
 	public void start (int firstPack) {
 		if (!mRunning) {
 			mTask = new Task ();
@@ -59,7 +59,7 @@ public class ImagePackDownloaderFragment extends Fragment {
 			mRunning = true;
 		}
 	}
-	
+
 	public void cancel () {
 		if (mRunning) {
 			mTask.cancel (false);
@@ -67,26 +67,26 @@ public class ImagePackDownloaderFragment extends Fragment {
 			mRunning = false;
 		}
 	}
-	
+
 	public boolean isRunning () {
 		return mRunning;
 	}
-	
+
 	private class Task extends AsyncTask<Integer, Integer, Void> {
-		
+
 		private String mTempFileName = null;
 		private int mTempFileSize = 0;
-	
+
 		private int mPacksToDownload = 0;
 		private int mCurrentPack = 0;
 		private int mProgressFrom = 0;
 		private int mProgressTo = 0;
 		private int mProgressCounter = 0;
-		
+
 		@Override
 		protected Void doInBackground (Integer... params) {
 			int versionAlreadyDownloaded = params[0];
-			
+
 			String[] ids = mContext.getResources().getStringArray(R.array.image_packs_ids);
 			int[] idVersions = mContext.getResources().getIntArray(R.array.image_packs_version_introduced);
 
@@ -94,13 +94,13 @@ public class ImagePackDownloaderFragment extends Fragment {
 				if (idVersions[i] > versionAlreadyDownloaded)
 					mPacksToDownload++;
 			}
-			
+
 			for (int i = 0; i < idVersions.length; i++) {
 				if (idVersions[i] <= versionAlreadyDownloaded)
 					continue;
-				
+
 				setProgressScale ();
-				
+
 				try {
 					downloadPack (ids[i]);
 					unzipPack ();
@@ -109,51 +109,51 @@ public class ImagePackDownloaderFragment extends Fragment {
 					return null;
 				}
 			}
-			
+
 			return null;
 		}
-		
+
 		@Override
 		protected void onProgressUpdate (Integer... percent) {
 			if (mCallbacks != null)
 				mCallbacks.onImagePackDownloadProgressed(percent[0]);
 		}
-		
+
 		@Override
 		protected void onCancelled () {
 			if (mCallbacks != null)
 				mCallbacks.onImagePackDownloadCancelled();
-			
+
 			mContext.deleteFile(mTempFileName);
 			mRunning = false;
 		}
-		
+
 		@Override
 		protected void onPostExecute (Void param) {
 			if (mCallbacks != null)
 				mCallbacks.onImagePackDownloaded();
-			
+
 			mRunning = false;
 		}
-		
+
 		private void setProgressScale () {
 			mProgressFrom = mCurrentPack * 100 / mPacksToDownload;
 			mCurrentPack++;
 			mProgressTo = mCurrentPack * 100 / mPacksToDownload;
-			
+
 			mProgressCounter = 0;
 		}
-		
+
 		private void publishPartialProgress (int partialProgress) {
 			mProgressCounter++;
-			
+
 			if (mProgressCounter % 50 != 0)
 				return;
-			
+
 			int progress = (int) (mProgressFrom + (mProgressTo - mProgressFrom) / 100.0 * partialProgress);
 			publishProgress (progress);
 		}
-		
+
 		private void downloadPack (String id) throws IOException {
 			URL url = new URL("https://docs.google.com/uc?id=" + id);
 			HttpURLConnection connection = (HttpURLConnection)url.openConnection();
@@ -174,7 +174,7 @@ public class ImagePackDownloaderFragment extends Fragment {
 
 				while ((bytesRead = in.read(buffer)) > 0) {
 					out.write(buffer, 0, bytesRead);
-					
+
 					bytesTotal += bytesRead;
 					publishPartialProgress(50 * bytesTotal / mTempFileSize);
 				}
@@ -184,14 +184,14 @@ public class ImagePackDownloaderFragment extends Fragment {
 				connection.disconnect();
 			}
 		}
-		
+
 		private void unzipPack () throws IOException {
-			ZipInputStream zin = new ZipInputStream(mContext.openFileInput(mTempFileName)); 
-			ZipEntry ze = null; 
+			ZipInputStream zin = new ZipInputStream(mContext.openFileInput(mTempFileName));
+			ZipEntry ze = null;
 
 			int bytesTotal = 0;
-			
-			while ((ze = zin.getNextEntry()) != null) { 
+
+			while ((ze = zin.getNextEntry()) != null) {
 				if (ze.isDirectory()) {
 					checkDirectories(ze.getName());
 				} else {
@@ -205,21 +205,21 @@ public class ImagePackDownloaderFragment extends Fragment {
 						bytesTotal += bytesRead;
 					}
 
-					fout.close(); 
+					fout.close();
 				}
 
 				zin.closeEntry();
-				
+
 				publishPartialProgress(50 + 50 * bytesTotal / mTempFileSize);
 			}
 
 			zin.close();
 			mContext.deleteFile(mTempFileName);
 		}
-		
+
 		private void checkDirectories (String dir) {
-			File f = new File(mContext.getExternalFilesDir(null) + "/" + dir); 
-			f.mkdirs(); 
-		} 
+			File f = new File(mContext.getExternalFilesDir(null) + "/" + dir);
+			f.mkdirs();
+		}
 	}
 }

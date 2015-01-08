@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
-    <string name="sign_in_why">Not signed in. Sign in with Google to share your accomplishments with friends.</string>
-    <string name="you_are_signed_in">You are signed in with Google</string>
-    <string name="sign_out">Sign out</string>
-    <string name="anonymous">Anonymous</string>
-    <string name="user_photo">User photograph</string>
-    <string name="leaderboards_button">Leaderboards</string>
-    <string name="itch">Travel Itch</string>
-    <string name="locations">Locations</string>
-    <string name="map_button">Show Map</string>
-    <string name="leaderboards_not_available">Please sign in to view leaderboards.</string>
-    <string name="syncing">Retrieving saved progress data</string>
-    <string name="downloading">Downloading location thumbnails</string>
-    <string name="download_cancelled">Thumbnails download cancelled, but will be retried later.</string>
-    <string name="no_data_warning">Could not reach servers. Your existing progress is not available right now, but will be synchronized later.</string>
-    <string name="stale_data_warning">Could not reach servers. Your progress may be out of date and will be synchronized later.</string>
-    <string name="load_error_warning">Your progress could not be loaded due to an error. Try again later.</string>
-    <string name="location_settings_not_found">Location settings not found on the device</string>
-    <string name="google_services">Google Services</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
-    <string name="ok">OK</string>
-    <string name="share">Share</string>
-    <string name="how_share">How do you want to share?</string>
-    <string name="gps_disabled">GPS radio disabled, do you want to enable it?</string>
-    <string name="show_by">Show by\:</string>
-    <string name="capitals">Capitals</string>
-    <string name="cities">Cities</string>
-    <string name="outdoor">Outdoor</string>
-    <string name="heritage_sites">World Heritage Sites</string>
-    <string name="mountains">Mountains</string>
-    <string name="sights">Sights</string>
-    <string name="legal_notices">Legal Notices</string>
-    <string name="just_visited">You have just visited...</string>
-    <string name="just_visited_share">I have just visited %1$s, %2$s.</string>
-    <string name="scratched">Scratched my Travel Itch</string>
+	<string name="sign_in_why">Not signed in. Sign in with Google to share your accomplishments with friends.</string>
+	<string name="you_are_signed_in">You are signed in with Google</string>
+	<string name="sign_out">Sign out</string>
+	<string name="anonymous">Anonymous</string>
+	<string name="user_photo">User photograph</string>
+	<string name="leaderboards_button">Leaderboards</string>
+	<string name="itch">Travel Itch</string>
+	<string name="locations">Locations</string>
+	<string name="map_button">Show Map</string>
+	<string name="leaderboards_not_available">Please sign in to view leaderboards.</string>
+	<string name="syncing">Retrieving saved progress data</string>
+	<string name="downloading">Downloading location thumbnails</string>
+	<string name="download_cancelled">Thumbnails download cancelled, but will be retried later.</string>
+	<string name="no_data_warning">Could not reach servers. Your existing progress is not available right now, but will be synchronized later.</string>
+	<string name="stale_data_warning">Could not reach servers. Your progress may be out of date and will be synchronized later.</string>
+	<string name="load_error_warning">Your progress could not be loaded due to an error. Try again later.</string>
+	<string name="location_settings_not_found">Location settings not found on the device</string>
+	<string name="google_services">Google Services</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="ok">OK</string>
+	<string name="share">Share</string>
+	<string name="how_share">How do you want to share?</string>
+	<string name="gps_disabled">GPS radio disabled, do you want to enable it?</string>
+	<string name="show_by">Show by\:</string>
+	<string name="capitals">Capitals</string>
+	<string name="cities">Cities</string>
+	<string name="outdoor">Outdoor</string>
+	<string name="heritage_sites">World Heritage Sites</string>
+	<string name="mountains">Mountains</string>
+	<string name="sights">Sights</string>
+	<string name="legal_notices">Legal Notices</string>
+	<string name="just_visited">You have just visited...</string>
+	<string name="just_visited_share">I have just visited %1$s, %2$s.</string>
+	<string name="scratched">Scratched my Travel Itch</string>
 
-    <string-array name="stamps_display_categories">
-        <item>Continents</item>
-        <item>Countries</item>
-        <item>Features</item>
-    </string-array>
+	<string-array name="stamps_display_categories">
+		<item>Continents</item>
+		<item>Countries</item>
+		<item>Features</item>
+	</string-array>
 
-    <plurals name="victory_points">
-        <item quantity="one">victory point</item>
-        <item quantity="other">victory points</item>
-    </plurals>
-    
-    <plurals name="points">
-        <item quantity="one">Point</item>
-        <item quantity="other">Points</item>
-    </plurals>
-    <plurals name="countries">
-        <item quantity="one">Country</item>
-        <item quantity="other">Countries</item>
-    </plurals>
-    <plurals name="continents">
-        <item quantity="one">Continent</item>
-        <item quantity="other">Continents</item>
-    </plurals>
-    <plurals name="locations">
-        <item quantity="one">Location</item>
-        <item quantity="other">Locations</item>
-    </plurals>
+	<plurals name="victory_points">
+		<item quantity="one">victory point</item>
+		<item quantity="other">victory points</item>
+	</plurals>
 
-    <string name="title_activity_legal_notices">Legal Notices</string>
+	<plurals name="points">
+		<item quantity="one">Point</item>
+		<item quantity="other">Points</item>
+	</plurals>
+	<plurals name="countries">
+		<item quantity="one">Country</item>
+		<item quantity="other">Countries</item>
+	</plurals>
+	<plurals name="continents">
+		<item quantity="one">Continent</item>
+		<item quantity="other">Continents</item>
+	</plurals>
+	<plurals name="locations">
+		<item quantity="one">Location</item>
+		<item quantity="other">Locations</item>
+	</plurals>
+
+	<string name="title_activity_legal_notices">Legal Notices</string>
 
 </resources>

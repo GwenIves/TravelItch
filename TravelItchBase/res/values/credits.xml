@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:ignore="MissingTranslation" >
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:ignore="MissingTranslation" >
 
-  <string name="credits">Application icons have been created using the Android Asset Studio</string>
-  
-  <string name="photo_credits">This product uses photography content provided under the Creative Commons Attribution licence, but in no way endorsed, by authors listed below. The full
-      text of the licence can be obtained by following the URL: \nhttps://creativecommons.org/licenses/by/3.0/legalcode \n \n
-      
+	<string name="credits">Application icons have been created using the Android Asset Studio</string>
+
+	<string name="photo_credits">This product uses photography content provided under the Creative Commons Attribution licence, but in no way endorsed, by authors listed below. The full text of the licence can be obtained by following the URL: \nhttps://creativecommons.org/licenses/by/3.0/legalcode \n \n
+
 
 	a2gemma \n
 	Aah-Yeah \n
@@ -809,5 +808,5 @@
 	Yuri Virovets \n
 	Zach Dischner \n
 	Αλέξανδρος \n</string>
-  
+
 </resources>

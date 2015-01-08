@@ -1,215 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
- 
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:scrollbars="none">
- 
-    <RelativeLayout
-        android:padding="5dp" 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
 
-        <TextView
-            android:id="@+id/main_menu_user_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="10dp"
-            android:layout_marginBottom="5dp"
-            android:text="@string/anonymous"
-            android:textSize="25sp" />
- 
-        <ImageView
-            android:contentDescription="@string/user_photo"
-            android:id="@+id/main_menu_user_photo"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@id/main_menu_user_name"
-            android:src="@drawable/ic_user_anonymous_inv" />
-        
-  	    <TableLayout
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:id="@+id/main_menu_scores_table"
-	        android:layout_marginLeft="10dp"
-	        android:layout_below="@id/main_menu_user_name"
-	        android:layout_toRightOf="@id/main_menu_user_photo" >
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:scrollbars="none">
 
-	        <TableRow
-	            android:gravity="center_vertical"
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content" >
-	            
+	<RelativeLayout
+		android:padding="5dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+
+	<TextView
+		android:id="@+id/main_menu_user_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="10dp"
+		android:layout_marginBottom="5dp"
+		android:text="@string/anonymous"
+		android:textSize="25sp" />
+
+	<ImageView
+		android:contentDescription="@string/user_photo"
+		android:id="@+id/main_menu_user_photo"
+		android:layout_width="100dp"
+		android:layout_height="100dp"
+		android:layout_alignParentLeft="true"
+		android:layout_below="@id/main_menu_user_name"
+		android:src="@drawable/ic_user_anonymous_inv" />
+
+		<TableLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/main_menu_scores_table"
+			android:layout_marginLeft="10dp"
+			android:layout_below="@id/main_menu_user_name"
+			android:layout_toRightOf="@id/main_menu_user_photo" >
+
+			<TableRow
+				android:gravity="center_vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" >
+
 				<ImageView
-		            android:id="@+id/main_menu_star"
-		            android:layout_width="24dp"
-		            android:layout_height="24dp"
-		            android:paddingRight="3dp"
-		            android:src="@drawable/ic_star" />
-		        
+					android:id="@+id/main_menu_star"
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:paddingRight="3dp"
+					android:src="@drawable/ic_star" />
+
 				<TextView
-		            android:id="@+id/main_menu_user_score"
-		            android:gravity="right"
-		            android:paddingRight="4dp"
-		            android:layout_width="wrap_content"
-		            android:layout_height="wrap_content" />
-		        <TextView
-		            android:id="@+id/main_menu_user_score_units"
-		            android:layout_width="wrap_content"
-		            android:layout_height="wrap_content" />
-	        </TableRow>
+					android:id="@+id/main_menu_user_score"
+					android:gravity="right"
+					android:paddingRight="4dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+				<TextView
+					android:id="@+id/main_menu_user_score_units"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</TableRow>
 
-	        <TableRow
-	            android:gravity="center_vertical"
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content" >
-		        
-		        <ImageView
-		            android:id="@+id/main_menu_location"
-		            android:layout_width="24dp"
-		            android:layout_height="24dp"
-		            android:paddingRight="3dp"
-		            android:src="@drawable/ic_location" />
+			<TableRow
+				android:gravity="center_vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" >
 
-		        <TextView
-		            android:id="@+id/main_menu_visited_locations"
-		            android:gravity="right"
-		            android:paddingRight="4dp"
-		            android:layout_width="wrap_content"
-		            android:layout_height="wrap_content" />
-		        <TextView
-		            android:id="@+id/main_menu_visited_locations_units"
-		            android:layout_width="wrap_content"
-		            android:layout_height="wrap_content" />
-	        </TableRow>
-	        
-	        <TableRow
-	            android:gravity="center_vertical"
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content" >
-		        
-		        <ImageView
-		            android:id="@+id/main_menu_country"
-		            android:layout_width="24dp"
-		            android:layout_height="24dp"
-		            android:paddingRight="3dp"
-		            android:src="@drawable/ic_country" />
+				<ImageView
+					android:id="@+id/main_menu_location"
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:paddingRight="3dp"
+					android:src="@drawable/ic_location" />
 
-		        <TextView
-		            android:id="@+id/main_menu_visited_countries"
-		            android:gravity="right"
-		            android:paddingRight="4dp"
-		            android:layout_width="wrap_content"
-		            android:layout_height="wrap_content" />		        
-		        <TextView
-		            android:id="@+id/main_menu_visited_countries_units"
-		            android:layout_width="wrap_content"
-		            android:layout_height="wrap_content" />
-	        </TableRow>
-	        
-	        <TableRow
-	            android:gravity="center_vertical"
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content" >
-		        
-		        <ImageView
-		            android:id="@+id/main_menu_region"
-		            android:layout_width="24dp"
-		            android:layout_height="24dp"
-		            android:paddingRight="3dp"
-		            android:src="@drawable/ic_region" />
+				<TextView
+					android:id="@+id/main_menu_visited_locations"
+					android:gravity="right"
+					android:paddingRight="4dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+				<TextView
+					android:id="@+id/main_menu_visited_locations_units"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</TableRow>
 
-		        <TextView
-		            android:id="@+id/main_menu_visited_regions"
-		            android:gravity="right"
-		            android:paddingRight="4dp"
-		            android:layout_width="wrap_content"
-		            android:layout_height="wrap_content" />		        
-		        <TextView
-		            android:id="@+id/main_menu_visited_regions_units"
-		            android:layout_width="wrap_content"
-		            android:layout_height="wrap_content" />
-	        </TableRow>
-	        
-	    </TableLayout>
-        
-	    <Button
-	        android:id="@+id/locations_button"
-	        android:layout_width="240dp"
-	        android:layout_height="wrap_content"
-	        android:layout_marginTop="30dp"
-	        android:layout_below="@id/main_menu_user_photo"
-	        android:layout_centerHorizontal="true"
-	        android:layout_marginBottom="2dp"
-	        android:text="@string/locations" />
+			<TableRow
+				android:gravity="center_vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" >
 
-	    <Button
-	        android:id="@+id/map_button"
-	        android:layout_below="@id/locations_button"
-	        android:layout_height="wrap_content"
-	        android:layout_width="240dp"
-	        android:layout_marginBottom="2dp"
-	        android:layout_centerHorizontal="true"
-	        android:text="@string/map_button" />
-	    	    
-	    <Button
-	        android:id="@+id/leaderboards_button"
-	        android:layout_below="@id/map_button"
-	        android:layout_height="wrap_content"
-	        android:layout_width="240dp"
-	        android:layout_centerHorizontal="true"
-	        android:text="@string/leaderboards_button" />
-	    
-	    <LinearLayout android:id="@+id/sign_in_bar"
-	        android:layout_below="@id/leaderboards_button"
-	        android:layout_alignParentBottom="true"
-	        android:layout_height="wrap_content"
-	        android:layout_width="match_parent"
-	        android:layout_marginTop="20dp"
-	        android:orientation="horizontal"
-	        android:gravity="center"
-	        android:padding="10dp">
-	
-	        <com.google.android.gms.common.SignInButton
-	            android:id="@+id/sign_in_button"
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content" />
-	
-	        <TextView android:layout_width="0dp"
-	            android:layout_weight="1"
-	            android:layout_height="wrap_content"
-	            android:layout_marginLeft="5dp"
-	            android:text="@string/sign_in_why" />
-	    </LinearLayout>
-	    
-	    <LinearLayout android:id="@+id/sign_out_bar"
+				<ImageView
+					android:id="@+id/main_menu_country"
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:paddingRight="3dp"
+					android:src="@drawable/ic_country" />
+
+				<TextView
+					android:id="@+id/main_menu_visited_countries"
+					android:gravity="right"
+					android:paddingRight="4dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+				<TextView
+					android:id="@+id/main_menu_visited_countries_units"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</TableRow>
+
+			<TableRow
+				android:gravity="center_vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" >
+
+				<ImageView
+					android:id="@+id/main_menu_region"
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:paddingRight="3dp"
+					android:src="@drawable/ic_region" />
+
+				<TextView
+					android:id="@+id/main_menu_visited_regions"
+					android:gravity="right"
+					android:paddingRight="4dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+				<TextView
+					android:id="@+id/main_menu_visited_regions_units"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</TableRow>
+
+		</TableLayout>
+
+		<Button
+			android:id="@+id/locations_button"
+			android:layout_width="240dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="30dp"
+			android:layout_below="@id/main_menu_user_photo"
+			android:layout_centerHorizontal="true"
+			android:layout_marginBottom="2dp"
+			android:text="@string/locations" />
+
+		<Button
+			android:id="@+id/map_button"
+			android:layout_below="@id/locations_button"
+			android:layout_height="wrap_content"
+			android:layout_width="240dp"
+			android:layout_marginBottom="2dp"
+			android:layout_centerHorizontal="true"
+			android:text="@string/map_button" />
+
+		<Button
+			android:id="@+id/leaderboards_button"
+			android:layout_below="@id/map_button"
+			android:layout_height="wrap_content"
+			android:layout_width="240dp"
+			android:layout_centerHorizontal="true"
+			android:text="@string/leaderboards_button" />
+
+		<LinearLayout android:id="@+id/sign_in_bar"
 			android:layout_below="@id/leaderboards_button"
-	        android:layout_alignParentBottom="true"
-	        android:layout_height="wrap_content"
-	        android:layout_width="match_parent"
-	        android:layout_marginTop="20dp"
-	        android:orientation="horizontal"
-	        android:gravity="center|right"
-	        android:padding="10dp">
-	
-	        <TextView android:layout_width="0dp"
-	            android:layout_weight="1"
-	            android:layout_height="wrap_content"
-	            android:layout_marginRight="5dp"
-	            android:text="@string/you_are_signed_in" />
-	
-	         <Button
-	            android:id="@+id/sign_out_button"
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content"
-	            android:text="@string/sign_out"
-	            android:textSize="12sp" />
-	    </LinearLayout>
-	    
+			android:layout_alignParentBottom="true"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:layout_marginTop="20dp"
+			android:orientation="horizontal"
+			android:gravity="center"
+			android:padding="10dp">
+
+			<com.google.android.gms.common.SignInButton
+				android:id="@+id/sign_in_button"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+
+			<TextView android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp"
+				android:text="@string/sign_in_why" />
+		</LinearLayout>
+
+		<LinearLayout android:id="@+id/sign_out_bar"
+			android:layout_below="@id/leaderboards_button"
+			android:layout_alignParentBottom="true"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:layout_marginTop="20dp"
+			android:orientation="horizontal"
+			android:gravity="center|right"
+			android:padding="10dp">
+
+			<TextView android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="5dp"
+				android:text="@string/you_are_signed_in" />
+
+			<Button
+				android:id="@+id/sign_out_button"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/sign_out"
+				android:textSize="12sp" />
+		</LinearLayout>
+
 	</RelativeLayout>
 
 </ScrollView>

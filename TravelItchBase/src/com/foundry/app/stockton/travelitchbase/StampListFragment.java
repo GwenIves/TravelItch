@@ -16,71 +16,71 @@ import android.widget.ExpandableListView;
 
 public class StampListFragment extends Fragment {
 	private static final String SELECTED_DISPLAY_CATEGORY = "display_category";
-	
-    ExpandableListView mListView;
-    StampListAdapter mListAdapter;
-    ActionBar mBar;
-    
-    private int mSelectedCategory = -1;
-	
+
+	ExpandableListView mListView;
+	StampListAdapter mListAdapter;
+	ActionBar mBar;
+
+	private int mSelectedCategory = -1;
+
 	@Override
 	public View onCreateView (LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
 		View v = inflater.inflate(R.layout.fragment_stamp_list, parent, false);
 
 		mListView = (ExpandableListView) v.findViewById(R.id.stamp_list_main);
 		mBar = ((TravelItchBaseActivity) getActivity()).getSupportActionBar();
-		
+
 		if (savedInstanceState != null) {
 			mSelectedCategory = savedInstanceState.getInt(SELECTED_DISPLAY_CATEGORY, 0);
 		}
-		
-        setUpActionBar ();
-        setUpAdapter ();
+
+	setUpActionBar ();
+	setUpAdapter ();
 
 		return v;
 	}
-	
+
 	@Override
 	public void onSaveInstanceState (Bundle savedInstanceState) {
 		super.onSaveInstanceState(savedInstanceState);
 		savedInstanceState.putInt(SELECTED_DISPLAY_CATEGORY, mBar.getSelectedNavigationIndex());
 	}
-	
+
 	public void updateUI () {
 		if (getActivity () == null)
 			return;
-				
+
 		mListAdapter.notifyDataSetChanged();
 	}
-	
+
 	private void setUpActionBar () {
 		mBar.setDisplayHomeAsUpEnabled(true);
-	    mBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
-	    mBar.setTitle(R.string.locations);
-	      
-	    ArrayAdapter<String> adapter = new ArrayAdapter<String> (
-	    		getActivity(),
-	    		android.R.layout.simple_spinner_dropdown_item,
-	    		getActivity().getResources().getStringArray(R.array.stamps_display_categories));
+		mBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
+		mBar.setTitle(R.string.locations);
 
-	    mBar.setListNavigationCallbacks(adapter, new OnNavigationListener() {
-			
+		ArrayAdapter<String> adapter = new ArrayAdapter<String> (
+			getActivity(),
+			android.R.layout.simple_spinner_dropdown_item,
+			getActivity().getResources().getStringArray(R.array.stamps_display_categories));
+
+		mBar.setListNavigationCallbacks(adapter, new OnNavigationListener() {
+
 			@Override
 			public boolean onNavigationItemSelected(int item, long arg1) {
 				if (item != mSelectedCategory) {
 					mSelectedCategory = item;
 					setUpAdapter();
 				}
-				
+
 				return true;
 			}
 		});
-	    
-	    if (mSelectedCategory != -1) {
-    		mBar.setSelectedNavigationItem(mSelectedCategory);
-	    }
+
+		if (mSelectedCategory != -1) {
+			mBar.setSelectedNavigationItem(mSelectedCategory);
+		}
 	}
-	
+
 	private void setUpAdapter () {
 		StampsManager stampsManager = StampsManager.get(getActivity ());
 
@@ -97,8 +97,8 @@ public class StampListFragment extends Fragment {
 				groupsList = stampsManager.getFeatures();
 				break;
 		}
-		
+
 		mListAdapter = new StampListAdapter(getActivity (), groupsList);
-        mListView.setAdapter(mListAdapter);
+		mListView.setAdapter(mListAdapter);
 	}
 }

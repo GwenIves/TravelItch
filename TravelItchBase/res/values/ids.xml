@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:ignore="MissingTranslation" >
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:ignore="MissingTranslation" >
 
-  <string name="app_id">690920540638</string>
-  <string name="maps_key">AIzaSyCue_VggPNVo26RprcWyA-iQR6wE8SNx4Y</string>
-  <string name="leaderboard_most_travelled">CgkI3pPL8I0UEAIQAQ</string>
+	<string name="app_id">690920540638</string>
+	<string name="maps_key">AIzaSyCue_VggPNVo26RprcWyA-iQR6wE8SNx4Y</string>
+	<string name="leaderboard_most_travelled">CgkI3pPL8I0UEAIQAQ</string>
 
-  
-  <integer-array name="image_packs_version_introduced">
-      <item>1</item>
-  </integer-array>  
-  
-  <string-array name="image_packs_ids">
-      <item>0B3KAXcrcd1WfMXpzTWdpSFV5WjQ</item>
-  </string-array>  
-  
+	<integer-array name="image_packs_version_introduced">
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="image_packs_ids">
+		<item>0B3KAXcrcd1WfMXpzTWdpSFV5WjQ</item>
+	</string-array>
+
 </resources>
